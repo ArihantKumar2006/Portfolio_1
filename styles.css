@@ -1,0 +1,174 @@
+body {
+  background-color: #27292c;
+  margin: 0;
+  padding: 0;
+  font-family: "Sono";
+  color: #ffffff;
+}
+
+a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #fef12b;
+}
+
+.header1 {
+  background-color: #a7836b;
+  padding: 20px;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.div1 {
+  width: 30vw;
+  text-align: center;
+  align-items: center;
+  font-family: Silkscreen;
+  font-size: x-large;
+}
+
+.div2 {
+  width: 70vw;
+  align-items: center;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.section1 {
+  display: flex;
+  justify-content: space-between;
+  padding: 60px;
+}
+
+.main-img {
+  background-color: #d9d9d9;
+  width: 201.5px;
+  height: 248.115px;
+  padding: 60px;
+  border-radius: 56px;
+}
+
+.div-3 {
+  background-color: #c78446;
+  padding: 20px;
+  width: 50vw;
+  border-radius: 10px;
+}
+
+.div-3 {
+  background-color: #c78446;
+  padding: 20px;
+  width: 50vw;
+  border-radius: 10px;
+  position: relative;
+}
+
+.circle {
+  width: 10px;
+  height: 10px;
+  background: #d9d9d9;
+  border-radius: 50%;
+  position: absolute;
+}
+
+/* Position the circles at the corners */
+.div-3 .circle:nth-child(1) {
+  /* Top-left */
+  top: 10px;
+  left: 10px;
+}
+
+.div-3 .circle:nth-child(2) {
+  /* Top-right */
+  top: 10px;
+  right: 10px;
+}
+
+.div-3 .circle:nth-child(3) {
+  /* Bottom-left */
+  bottom: 10px;
+  left: 10px;
+}
+
+.div-3 .circle:nth-child(4) {
+  /* Bottom-right */
+  bottom: 10px;
+  right: 10px;
+}
+
+h1 {
+  font-size: 50px;
+  text-decoration: underline;
+}
+
+.headings-icon {
+  display: flex;
+  column-gap: 20px;
+}
+
+.section2 {
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+}
+
+.card {
+  width: 370px;
+  height: 350px;
+  background-color: #444444;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 40px;
+  padding: 40px;
+}
+
+h2 {
+  text-align: center;
+  text-decoration: underline;
+}
+
+.div4 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.card2 {
+  background-color: #444444;
+  padding: 60px;
+  margin: 25px;
+}
+
+.section3 {
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+}
+
+.footer {
+  background-color: #c78446;
+  border-top-left-radius: 120px;
+  border-top-right-radius: 120px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.footer .circle:nth-child(1) {
+  /* Top-left */
+  top: 50px;
+  left: 50px;
+}
+
+.footer .circle:nth-child(2) {
+  /* Top-right */
+  top: 50px;
+  right: 50px;
+}
